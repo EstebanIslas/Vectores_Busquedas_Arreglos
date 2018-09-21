@@ -12,6 +12,10 @@ public class Main {
         int buscar; //Para la busqueda
         
         boolean mensaje = true; //mensaje de busqueda
+        
+        /*
+        Ciclos Para Arreglo de 10 numeros e imprimir estos
+        */
 
         for (int i = 0; i < 10; i++) { //Ciclo que cuenta 10 veces los numeros que preguntaran al usuario
             System.out.print("Ingrese el numero " + veces + " : ");
@@ -22,6 +26,10 @@ public class Main {
             System.out.println(numeros[a] + "");
         }
         System.out.println("");
+        
+        /*
+        Ciclos para realizar el ordenamiento con el metodo de Burbuja
+        */
 
         for (int b = 0; b < numeros.length - 1; b++) { //Ciclo que cuenta el total de numeros en el arreglo
             for (int c = 0; c < numeros.length - 1; c++) {// cuenta los numeros para ordenar
@@ -37,6 +45,9 @@ public class Main {
             System.out.println(numeros[d]);
         }
 
+        /*
+        Ciclos para Busqueda de Numeros
+        */
         Scanner tecla = new Scanner(System.in);
         System.out.println("Ingresa el numero a buscar: ");
         buscar = tecla.nextInt();
